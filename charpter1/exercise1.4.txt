@@ -1,0 +1,7 @@
+Exercise 1.4
+
+(define (a-plus-abs-b a b) ((if (> b 0) + -) a b))
+
+No caso desse procedimento, o If tem como resultado um procedimento, quando b é maior que 0
+retorna '+', já quando é menor ou igual a zero, retorna '-'. Dessa forma, é somado sempre o 
+valor positivo de b, ou entao o valor absoluto.
